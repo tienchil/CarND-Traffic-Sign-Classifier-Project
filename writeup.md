@@ -108,7 +108,7 @@ The code for training the model is located in the fourth, sixth, seventh, and ei
 | 128		 | 30     | ADAM      | 0.001 		  |
 
 
-####5. Describe the approach taken for finding a solution. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
+#### 5. Describe the approach taken for finding a solution. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
 The code for calculating the accuracy of the model is located in the ninth cell of the Ipython notebook.
 
@@ -187,6 +187,7 @@ For the first image, the model is sure that this is a no-entry sign (probability
 
 ---
 ![alt text][image3]
+
 For the second image, the model is sure that this is a Road narrows on the right sign (probability of 0.99), but the image is a curve-left sign. The top five soft max probabilities were 
 
 | Probability         	|     Prediction	        					| 
@@ -199,6 +200,7 @@ For the second image, the model is sure that this is a Road narrows on the right
 
 ---
 ![alt text][image7]
+
 For the third image, the model is sure that this is a Speed limit (20km/h) sign (probability of 0.99), but the image is a wild-animal-crossing sign. The top five soft max probabilities were 
 
 | Probability         	|     Prediction	        					| 
@@ -211,6 +213,7 @@ For the third image, the model is sure that this is a Speed limit (20km/h) sign 
 
 ---
 ![alt text][image6] 
+
 For the fourth image, the model is sure that this is a Speed limit (80km/h) sign (probability of 0.99), but the image is a Stop sign. The top five soft max probabilities were 
 
 | Probability         	|     Prediction	        					| 
@@ -223,6 +226,7 @@ For the fourth image, the model is sure that this is a Speed limit (80km/h) sign
 
 ---
 ![alt text][image5]
+
 For the fifth image, the model is sure that this is a Speed limit (60km/h) sign (probability of 1.0), and the image does contain a Speed limit (60km/h) sign. The top five soft max probabilities were 
 
 | Probability         	|     Prediction	        					| 
